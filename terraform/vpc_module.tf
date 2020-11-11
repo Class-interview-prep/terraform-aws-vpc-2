@@ -1,4 +1,4 @@
-module "vpc_eks" {
+module "vpc_fuchicorp" {
     source = "./module"
     cidr_block1_public = "${var.cidr_block1_public}"
     cidr_block2_public = "${var.cidr_block2_public}"
