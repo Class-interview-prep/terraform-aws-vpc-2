@@ -30,3 +30,4 @@ data "template_file" "output" {
 
 output "Your deployment information" {
   value = "${data.template_file.output.rendered}"
+}  
