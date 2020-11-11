@@ -23,7 +23,7 @@ resource "aws_route_table_association" "pub3" {
 
 resource "aws_route_table_association" "pub4" {
   subnet_id = "${aws_subnet.pub4.id}"
-  route_table_id = "${aws_route_table.vpc_eks.id}"
+  route_table_id = "${aws_route_table.vpc_fuchicorp.id}"
 } 
 
 resource "aws_route_table" "nat_gw" { 
