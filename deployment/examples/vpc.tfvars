@@ -15,6 +15,3 @@ module "vpc_fuchicorp" {
     security_group_ids = [""]
 }
 
-output "vpc_id" {
-  value = module.vpc.id
-}
