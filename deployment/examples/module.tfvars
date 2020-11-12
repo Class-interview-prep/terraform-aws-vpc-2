@@ -1,5 +1,5 @@
 module "vpc_fuchicorp" {
-    https://github.com/fuchicorp/common_scripts/tree/master/github-management/manage-labels
+    source  = https://github.com/fuchicorp/common_scripts/tree/master/github-management/manage-labels
     environment                     =   ""
     region                          =   ""
     s3_bucket                       =	""
