@@ -36,7 +36,7 @@ output "Private_Subnet4" {
 
 
 output "IGW" {
-    value = "${aws_internet.vpc_eks.id}"
+    value = "${aws_internet_gateway.vpc_eks.id}"
 }
 
 output "dynamodb_table" {
