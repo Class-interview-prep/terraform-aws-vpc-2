@@ -1,11 +1,6 @@
 module "vpc_eks" {
     source  = "git@github.com:fuchicorp/terraform-aws-vpc.git?ref=dev-feature/aws-vpcmodule"
 
-
-
- 
-
-
     ## This is used for VPC CIDR Block
     cidr_block = "10.0.0.0/16"
 
