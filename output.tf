@@ -1,5 +1,5 @@
 output "VPC_ID" {
-    value = "${aws_vpc.vpc_fuchicorp.id}"
+    value = "${aws_vpc.vpc_eks.id}"
 }
 
 output "Subnet1" {
@@ -36,7 +36,7 @@ output "Private_Subnet4" {
 
 
 output "IGW" {
-    value = "${aws_internet_gateway.vpc_fuchicorp.id}"
+    value = "${aws_internet.vpc_eks.id}"
 }
 
 output "dynamodb_table" {
