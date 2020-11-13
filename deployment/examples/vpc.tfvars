@@ -1,9 +1,5 @@
-module "vpc_eks" {
-    source  = "git@github.com:fuchicorp/terraform-aws-vpc.git?ref=dev-feature/aws-vpcmodule"
-
-
-
-    environment                     =   "virginia"
+##Provide a region for VPC
+environment                     =   "virginia"
 region                          =   "us-east-1"
 s3_bucket                       =   "fuchicorp"
 s3_folder_region                =   "us-east-1"
@@ -31,7 +27,3 @@ az1                  =       "us-east-1a"
 az2                  =       "us-east-1b"
 az3                  =       "us-east-1c"
 az4                  =       "us-east-1d"
-
-                
-}
-

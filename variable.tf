@@ -1,3 +1,10 @@
+variable "s3_folder_region" {}
+variable "s3_tfstate_file"" {}
+variable "s3_folder_type" {}
+variable "environment" {}
+variable "s3_bucket" {}
+variable "s3_folder_project" {}
+
 variable "region" {}
 variable "cidr_block" {}
 
