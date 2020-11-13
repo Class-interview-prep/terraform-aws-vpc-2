@@ -1,5 +1,5 @@
 module "vpc_fuchicorp" {
-    source  = https://github.com/fuchicorp/common_scripts/tree/master/github-management/manage-labels
+    source  = " https://www.terraform.io/docs/modules/sources.html#github "
     environment                     =   ""
     region                          =   ""
     s3_bucket                       =	""
