@@ -1,5 +1,5 @@
-module "vpc_fuchicorp" {
-    source  = " https://www.terraform.io/docs/modules/sources.html#github "
+module "consul" {
+    source  = " git@github.com:hashicorp/example.git"
     environment                     =   ""
     region                          =   ""
     s3_bucket                       =	""
