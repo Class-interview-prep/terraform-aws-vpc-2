@@ -1,17 +1,5 @@
 module "vpc_eks" {
-    source  = "git@github.com:fuchicorp/terraform-aws-vpc.git?ref=dev-feature/aws-vpcmodule"
-
-
-    # #Provide a region for VPC
-    # environment                     =   "virginia"
-    # region                          =   "us-east-1"
-    # s3_bucket                       =	"fuchicorp"
-    # s3_folder_region                =	"us-east-1"
-    # s3_folder_project               =   "fuchicorp"
-    # s3_folder_type                  =   "teamLV"
-    # s3_tfstate_file                 =   "vpc.tfstate"
-
-
+    source  = "git@github.com:fuchicorp/terraform-aws-vpc.git"
 
     ## This is used for VPC CIDR Block
     cidr_block = "10.0.0.0/16"
