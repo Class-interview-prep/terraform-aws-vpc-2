@@ -16,13 +16,10 @@ Required_providers :
 **Calling module**
 
 Your `main.tf` should look like this;
-
-     
-
-                                                                                                                                                                                                           
+ 
     module "aws-vpc" {
-                                                                                                                                                                                                       
-    source = ""fuchicorp/terraform-aws-vpc""
+          
+    source = "fuchicorp/terraform-aws-vpc"
     
     cidr_block1_public = ""
     cidr_block2_public = ""
